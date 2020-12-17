@@ -1,0 +1,131 @@
+/*titlt*/
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.heading{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container{
+    padding: 3% 15% 17% 15%;
+}
+body{
+    font-family: 'Montserrat';
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+#tindog{
+    font-size: 3.5rem;
+}
+#navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Ubuntu";
+}
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+.title-img{
+    width: 60%;
+    transform: rotate(20deg);
+    position: absolute;
+    margin-left: 50px;
+}
+#features{
+    padding: 15% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.features-box{
+    text-align: center;
+    padding: 5px;
+}
+h3{
+    font-family: 'Montserrat';
+}
+p{
+    color: #8f8f8f;
+}
+.icon{
+    color: #ff4c68;
+    margin-bottom: 1.5rem;
+}
+.icon:hover{
+    color: #ef8172;
+}
+#testimonials{
+   
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+h2{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    text-align: center;
+    background-color: #ff4c68;
+    padding-bottom: 5%;
+    
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 15% 15% 7% 15%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+@media(max-width:1028px){
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+.cta{
+    background-color: #ff4c68;
+    padding: 10%;
+    text-align: center;
+}
+.h3-footer{
+    color: #fff;
+    font-size: 2rem;
+
+}
+.footer{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    background-color: #fff;
+    text-align: center;
+}
+.icon-foot {
+    margin: 20px 10px;
+}
